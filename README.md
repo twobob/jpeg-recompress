@@ -221,6 +221,18 @@ Install the binaries into `/usr/local/bin`:
 sudo make install
 ```
 
+## Python Port
+
+`jpeg_recompress.py` is a Python reimplementation that mirrors the command line
+interface of the C utility. Install the dependencies listed in
+`requirements.txt` and run the script just like the original tool:
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 jpeg_recompress.py -h
+```
+
+
 ## Links / Alternatives
 
 * https://github.com/rflynn/imgmin
